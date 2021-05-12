@@ -1,0 +1,22 @@
+Recursion
+_________
+= a way of solving a problem by having a function calling itself.
+- performimg the same operation multiple times with different inputs
+-In every step we try smaller inputs to make the problem smaller.
+-Base condition is need to stop the recursion, otherwise infinite loop will 
+occur
+
+why?
+____
+- helps you break down big problems into smaller ones and easier to use.
+when to choose Recursion.
+_________________________
+=>if you can divine the problem into similar sub problem
+=>Design an algorithm to compute nth
+=>Write code to list the n..
+=> Implement a method to compute all.
+===> practice
+
+- The prominent usage of Recursion in data struture like trees and graphs
+- Interviews
+- It is used in many algorithms (divide and conquer, greedy and dynamic programming)

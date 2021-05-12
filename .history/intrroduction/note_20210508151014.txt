@@ -1,0 +1,39 @@
+what are data structure 
+_______________________
+-Data structure are different ways of organizing data on your computer, that 
+can be used effectively.
+
+Algorithm?
+__________
+Set of step to accomplish a task
+In CS is set of rules for a computer program to accomplish a task.
+(input>>> calculation >>> stop when answer found)
+
+Why are DT and Algorithm important?
+__________________________________
+-Problem solving skils
+-Fundamental concepts of programming in linited time.
+
+Type of Data Structures
+_______________________
+primitive:
+integer
+float
+character
+string
+Boolean
+
+Non primitive
+linear => static (Array) 
+==> Dynamic(Linked list, Stack, Queue)
+No Linear ==> Tree ()
+==>Graph()
+
+Types of Algorithm
+__________________
+- Simple recursive Algorithms
+-Divide and conquer Algorithms
+-Dynamic Programming Algorithms
+-Gready Algorithms
+-Brute force Algorithms
+-Randomized Algorithms
