@@ -105,9 +105,39 @@ number using recursion?
 
 # print(decimalToBinary(13))
 
-def flatten(arr):
-    if arr == []:
-        return arr
-    if isinstance(arr[0], list):
-        return flatten(arr[0]) + flatten(arr[1:])
-    return arr[:1] + flatten(arr[1:])
+# def flatten(arr):
+#     if arr == []:
+#         return arr
+#     if isinstance(arr[0], list):
+#         return flatten(arr[0]) + flatten(arr[1:])
+#     return arr[:1] + flatten(arr[1:])
+
+# def sumof(n):
+#     if n == 0:
+#         return n
+#     return n + sumof(n-1)
+
+
+# print(sumof(4))
+
+# def grid_path(n, m):
+#     if n == 1 or m == 1:
+#         return 1
+#     return grid_path(n, m-1) + grid_path(n-1, m)
+
+
+# print(grid_path(4, 3))
+
+#  simplest
+#  count_partions
+
+def count_partions(n, m):
+    if n == 0:
+        return 1
+    elif m == 0 or n < 0:
+        return 0
+    else:
+        return count_partions(n-m, m) + count_partions(n, m-1)
+
+
+print(count_partions(4, 5))
