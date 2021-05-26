@@ -1,0 +1,27 @@
+Property:
+-Array can store data of specified type.
+-Elaments of an array are located in acontiguous.
+-Each element of an array is predefined and connot be modified.
+-The size of an array is predefined and connot be modified.
+
+type of array:
+One dimensional array
+-accessing an array = array[index]
+Two dimensional
+-accessing element array = array[row][column]
+Three dimensional array
+-accessing array = array[depth][row][column]
+milti demensional array
+
+How array are located in the memories 
+
+when we create an array, we:
+- Assign it to variable
+- Define the type of elements that it will store
+- Define its size (the maximum numbers of elements)
+
+Array travasal
+Visiting each element in an array 
+
+
+

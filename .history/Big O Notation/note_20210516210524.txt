@@ -1,0 +1,46 @@
+Big o Notation
+______________
+
+- Discribe the efficiency of algorithms.
+
+Algorithm run time notation 
+-Best case
+-Average case
+-Work case
+
+Big O = is complexity that is going to be less or equel the worst case
+Big-Omega = it is complexity that is going to be at least more than the best
+Big Theta (Big-O) = It is a complexity that is within bounds of the worst and best 
+-cases
+
+O(1) = constant time => Accessing aspecific element in array.
+O(N) = Linear time => Loop through array elements.
+O(N2) =  Logarithmic => Find an element in sort array.
+O(N**2) = Quadratic => Looking every index in the array twice
+O(2**N) = Exponential => Double recursion in FIBONNACCI.
+
+Drop Constant and Non Dominant Terms
+
+-It is very possible that O(N) code is fester than O(1) code for specific inputs
+-Different computer with different architectures have different constant factors
+-Diffrent algorithm woth the same basic idea and computational complexity might
+have slightly different constant.
+
+add vs Multiply
+---------------
+-If your algorithm is in the for "do this, when you are all done do that " then 
+you add the runtimes
+-If your algorithm is in the form "do this for each time you do that" then you 
+nuitiply the runtimes.
+
+How to measure the codes using Big O?
+-------------------------------------
+Rule 1 = Any assignment and if statements that are executed once regrardless of
+the size.=>[O(1)]
+Rule 2 = A simple "for" loop form O to n (with no internal loops). =>[O(n)]
+Rule 3 = A nested loop of the same type takes Quadratic time complexity.
+=> [O(n**2)]
+Rule 4 = A loop, in which the controlling parameter is divided by two at each step.
+=> [O(logn)]
+Rule 5 = When dealing with multiple statements, just add them up.
+
